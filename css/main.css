@@ -1,0 +1,316 @@
+html, body, p,.row{margin: 0;padding: 0;outline: 0;font-family: 'Merriweather Sans', sans-serif;}
+h1{font-family: 'Arizonia', cursive;}
+.navbar-nav > li{
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-size: .8em;
+}
+.navbar-nav > li > a{
+    color: #FFF;
+}
+
+.secondary-header{
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.secondary-header:before{
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.header{
+    height: 600px;
+    background-image: url(/assets/images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-text{
+    color: #FFF;
+    height: 250px;
+    border-left: 3px solid #FFF;
+    margin-top: 6em;
+}
+.header-text > h1{
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+.header-text > p{
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.5;
+}
+
+.header:before{
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.text-container{
+    width: calc(100% - 400px);
+    padding: 5.5em;
+}
+
+.text-container > p{
+    margin-top: 3.5em;
+    max-width: 800px;
+    letter-spacing: .1em;
+}
+
+.image-1{
+    background-color: #333;
+    width: 400px;
+    height: 400px;
+}
+
+.image-2{
+    background-color: #333;
+    width: 400px;
+    height: 400px;
+}
+
+footer{
+    width: 100%;
+    background-color: #eee;
+    height: 150px;
+    float: left;
+}
+
+/*About page*/
+.about-head{
+    background-image: url(/assets/images/about-emma.jpg);
+}
+
+.secondary-header > h1{
+    font-size: 6em;
+    text-align: center;
+    color: #FFF;
+    margin-top: 1em;
+    position: relative;
+}
+
+.about-l-image{
+    margin-right: 1em;
+    height: 250px;
+    background-image: url(/assets/images/about-l.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-r-image{
+    height: 250px;
+    background-image: url(/assets/images/about-r.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.work-wrap{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.work-square{
+    float: left;
+    background-color: #333;
+    width: 50%;
+    position: relative;
+/*    max-width: 700px; maybe change for large displays?*/ 
+}
+.work-square > h2{
+    color: #FFF;
+    z-index: 99;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+.work-square > h2:after{
+    content: "";
+    height: 1px;
+    background-color: #FFF;
+    width: 200px;
+    position: absolute;
+    bottom: -5px;
+    left: 34%;
+}
+.work-square > p{
+    font-style: italic;
+    color: #FFF;
+    z-index: 99;
+    top: 53%;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    opacity: 0.5;
+}
+.work-square:before{
+    content: "";
+	display: block;
+	padding-top: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.willow {
+        background-image: url(/assets/images/willow.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.silver {
+        background-image: url(/assets/images/silver.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.brass {
+        background-image: url(/assets/images/brass.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.steel {
+        background-image: url(/assets/images/steel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Work page*/
+.work-head{
+    background-image: url(/assets/images/about-emma.jpg);
+}
+
+.project{
+    float: left;
+    background-color: #333;
+    width: 50%;
+    position: relative;
+}
+.project > h5{
+    color: #FFF;
+    z-index: 99;
+    bottom: 40;
+    left: 20;
+    position: absolute;
+}
+.project > p{
+    color: #FFF;
+    z-index: 99;
+    bottom: 30;
+    left: 20;
+    position: absolute;
+    opacity: 0.5;
+    font-size: 0.8em;
+}
+.project:before{
+    content: "";
+	display: block;
+	padding-top: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+/*Brass*/
+.brass-head{
+    background-image: url(/assets/images/about-emma.jpg);
+}
+
+.brass-1{
+    background-image: url(/assets/images/brass.JPG);
+    background-size: cover;
+    background-position: center;    
+}
+
+.brass-2{
+    background-image: url(/assets/images/silver.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.brass-3{
+    background-image: url(/assets/images/steel.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+/*Willow*/
+.willow-head{
+    background-image: url(/assets/images/about-emma.jpg);
+}
+
+.willow-1{
+    background-image: url(/assets/images/brass.JPG);
+    background-size: cover;
+    background-position: center;    
+}
+
+.willow-2{
+    background-image: url(/assets/images/silver.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.willow-3{
+    background-image: url(/assets/images/steel.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+/*Sterling Silver*/
+.silver-head{
+    background-image: url(/assets/images/about-emma.jpg);
+}
+
+.silver-1{
+    background-image: url(/assets/images/brass.JPG);
+    background-size: cover;
+    background-position: center;    
+}
+
+.silver-2{
+    background-image: url(/assets/images/silver.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.silver-3{
+    background-image: url(/assets/images/steel.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+/*Steel Galvanised wire*/
+.steel-head{
+    background-image: url(/assets/images/about-emma.jpg);
+}
+
+.steel-1{
+    background-image: url(/assets/images/brass.JPG);
+    background-size: cover;
+    background-position: center;    
+}
+
+.steel-2{
+    background-image: url(/assets/images/silver.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.steel-3{
+    background-image: url(/assets/images/steel.jpg);
+    background-size: cover;
+    background-position: center;    
+}
